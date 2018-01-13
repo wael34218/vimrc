@@ -14,6 +14,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'git://git.wincent.com/command-t.git'
+Plugin 'ekalinin/Dockerfile.vim'
 
 Bundle 'klen/python-mode'
 Plugin 'davidhalter/jedi-vim'
