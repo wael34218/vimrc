@@ -15,10 +15,11 @@ Plugin 'Lokaltog/vim-powerline'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'yegappan/grep'
 
 Bundle 'klen/python-mode'
 Plugin 'davidhalter/jedi-vim'
-let g:jedi#auto_initialization = 0
+" let g:jedi#auto_initialization = 0
 "
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -62,6 +63,8 @@ let g:pymode_rope = 0
 let g:pymode_folding = 0
 let g:pymode_options_max_line_length = 100
 let g:pymode_options_colorcolumn = 1
+let g:jedi#completions_command = "<C-Space>"
+let g:jedi#popup_on_dot = 0
 
 autocmd FileType java set tags=~/.tags
 set tags=tags;
