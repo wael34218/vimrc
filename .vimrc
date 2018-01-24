@@ -38,8 +38,19 @@ nmap <silent> <C-D> :NERDTreeToggle<CR>
 nmap <silent> <F8> :w<CR> :!clear;g++ % -o %:r && ./%:r<CR>
 
 
+" Maneuver Cursor across Tabs, Buffers and Windows
+" Window shortcuts
+map <C-o> <C-w>l
+map <C-y> <C-w>h
+map <C-i> <C-w>k
+map <C-u> <C-w>j
+" Buffer shortcuts
 map <C-j> :bn<CR>
 map <C-k> :bp<CR>
+" Tab shortcuts
+map <C-l> :tabn<CR>
+map <C-h> :tabp<CR>
+
 
 noremap <Up> <NOP>
 noremap <Down> <NOP>
