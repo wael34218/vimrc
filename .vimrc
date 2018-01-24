@@ -41,16 +41,16 @@ nmap <silent> <F8> :w<CR> :!clear;g++ % -o %:r && ./%:r<CR>
 
 " Maneuver Cursor across Tabs, Buffers and Windows
 " Window shortcuts
-map <C-o> <C-w>l
-map <C-y> <C-w>h
-map <C-i> <C-w>k
-map <C-u> <C-w>j
+map <C-l> <C-w>l
+map <C-h> <C-w>h
+map <C-k> <C-w>k
+map <C-j> <C-w>j
 " Buffer shortcuts
-map <C-j> :bn<CR>
-map <C-k> :bp<CR>
+map <C-u> :bn<CR>
+map <C-i> :bp<CR>
 " Tab shortcuts
-map <C-l> :tabn<CR>
-map <C-h> :tabp<CR>
+map <C-o> :tabn<CR>
+map <C-y> :tabp<CR>
 
 
 noremap <Up> <NOP>
