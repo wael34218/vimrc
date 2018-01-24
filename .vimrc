@@ -16,6 +16,7 @@ Plugin 'Lokaltog/vim-easymotion'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'yegappan/grep'
+Plugin 'qpkorr/vim-bufkill'
 
 Bundle 'klen/python-mode'
 Plugin 'davidhalter/jedi-vim'
