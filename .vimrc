@@ -80,3 +80,5 @@ let g:jedi#popup_on_dot = 0
 
 autocmd FileType java set tags=~/.tags
 set tags=tags;
+
+set clipboard=unnamedplus
