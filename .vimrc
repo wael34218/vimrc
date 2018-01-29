@@ -83,3 +83,4 @@ set tags=tags;
 
 set clipboard=unnamedplus
 let NERDTreeShowHidden=1
+let NERDTreeIgnore = ['\.pyc$', '\.swp$']
