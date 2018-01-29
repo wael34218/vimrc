@@ -82,3 +82,4 @@ autocmd FileType java set tags=~/.tags
 set tags=tags;
 
 set clipboard=unnamedplus
+let NERDTreeShowHidden=1
