@@ -6,6 +6,8 @@ Vim presets for Python, Rails, Git and NerdTree
 1- Make sure xtern_clipboard is compiled with VIM using the command:
 
     vim --version | grep xterm
+    
+You can use `sudo apt-get install vim-gnome` to make sure your vim supports xterm_clipboard
 
 
 ## Installation
